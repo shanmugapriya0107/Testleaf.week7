@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test" verbose="5">
+    <classes>
+      <class name="testcases.TC_01_VerifyLogin"/>
+      <class name="testcases.TC_02_VerifyCreateLead"/>
+      <class name="testcases.TC_03_VerifyEditLead"/>
+      <class name="testcases.TC_04_VerifyDuplicateLead"/>
+      <class name="testcases.TC_05_VerifyDeleteLead"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
